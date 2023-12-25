@@ -1,0 +1,62 @@
+/* reg.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.authText {
+    margin: 1em auto;
+    text-align: center;
+    font-size: 28px;
+}
+
+.regText {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+    min-height: 2em;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: #0a0a23;
+    color: #ffffff;
+}
+
+button {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    background-color: #0a0a23;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    vertical-align: middle;
+    margin: 0.5rem 0;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
